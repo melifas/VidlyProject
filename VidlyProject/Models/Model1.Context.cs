@@ -27,5 +27,7 @@ namespace VidlyProject.Models
     
         public virtual DbSet<Movie> Movies { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<MembershipType> MembershipTypes { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }

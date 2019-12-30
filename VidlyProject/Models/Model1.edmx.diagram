@@ -7,6 +7,9 @@
       <Diagram DiagramId="bdd6814726bb499583774e764f326fe0" Name="Diagram1">
         <EntityTypeShape EntityType="VidlyModelContex.Movie" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="VidlyModelContex.Customer" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="VidlyModelContex.MembershipType" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="VidlyModelContex.sysdiagram" Width="1.5" PointX="3.375" PointY="3.75" />
+        <AssociationConnector Association="VidlyModelContex.FK_Customer_MembershipType" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

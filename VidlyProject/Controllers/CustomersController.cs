@@ -21,8 +21,17 @@ namespace VidlyProject.Controllers
             {                
                 List<Customer> customers = _contex.Customers.ToList();                
                 return View(customers);
-
             }
+        }
+
+        public ActionResult Details(int id)
+        {
+            using (VidlyEntities _contex = new VidlyEntities())
+            {
+                Customer customer = _contex.Customers.SingleOrDefault(x => x.Id==id);
+                return View(customer);
+            }
+            
         }
     }
 }
