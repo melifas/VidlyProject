@@ -26,13 +26,8 @@ namespace VidlyProject.Controllers
             return View(randomMovieCustomer);
 
             }
-
-
         }
 
-        /*public ActionResult Edit(int id)
-        {
-            return Content("Id = " + id);
-        }*/
+        
     }
 }
