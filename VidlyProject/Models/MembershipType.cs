@@ -24,6 +24,7 @@ namespace VidlyProject.Models
         public string SignUpFee { get; set; }
         public Nullable<int> DurationInMonths { get; set; }
         public Nullable<int> DiscountRate { get; set; }
+        public string Name { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Customer> Customers { get; set; }
